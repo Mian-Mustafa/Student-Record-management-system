@@ -1,52 +1,100 @@
 
-🎓 Student Record Management System
-The Student Record Management System is a full-stack web application designed to streamline and manage student data efficiently. This project is ideal for educational institutions looking to digitize student information and provide role-based access for administrators, faculty, and students.
+# Student-Management-System
 
-💻 Technologies Used:
-Frontend:
-HTML5 – For structuring web pages.
+Welcome to my repository. The **Student Management System (SMS)** is developed for transforming manual offline workload into online automatic system. It contains all the main
+features such as adding and managing students, books with efficiently maintaining their data.  This is a complete SMS with all the necessary functionalties. It also provides feature to **generate report** and **manage file**.
 
-CSS3 – For styling and layout customization.
 
-Bootstrap 5 – For responsive and mobile-friendly UI design.
+# Getting Started
 
-JavaScript – For dynamic interactions and client-side validations.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-Backend:
-PHP – Handles server-side logic, session management, and form processing.
+## Prerequisites
 
-Database:
-MySQL – Stores all student records, login credentials, academic data, and role-based user information.
+It is good to have basic knowledge of HTML, CSS, PHP and MySQL to understand this project.
+>We will use XAMP server as it has cross-platform support and we won't be needed to worry about the operating system support.
+Download and install suitable XAMP server from this link - https://www.apachefriends.org/download.html
 
-🔐 Features by Role:
-Admin Panel:
-Manage all users (add, edit, delete students and faculty)
+## Setting up the environment
 
-View and search all student records
+- Download and extract project source code on your local machine.
+- Paste the source code in the htdocs folder. Default path will be here("C:\xampp\htdocs")
+- Open XAMP Control Panel and start Apache & MySQL service
+- Open your web browser and paste this link ("http://localhost/phpmyadmin/"). It should open database server page.
+- Create new empty database named student-management-system. Select the student-management-system database and import the SQL file given with the source code.
+- Review the config file from both of the includes folders. Change username and password accordingly.
+- Open your web browser and paste this link ("http://localhost/foldername-in-htdocs-directory/").
+- Open your web browser and paste this link ("http://localhost/foldername-in-htdocs-directory/").
 
-Manage course or department info
+# Student-Management-System---PHP-MySQL
 
-Faculty Panel:
-View assigned student lists
+Available Functions
 
-Update student grades or attendance
+  * Student Management;
+  * Subject Management;
+  * Class Room Management;
+  * Exam Management;
+  * Attendance Management;
+  * Teacher Management;
+  * Parents Management;
+  * User Management;
+  * School Notice Distribution;
 
-View academic progress
+Setup Instruction
 
-Student Panel:
-View personal profile
+01. Create new MySQL database 'schoolnew' and import provided schoolnew.sql file.
+02. Put all files and folders in your host's public directory.
 
-Check grades, attendance, and academic progress
+Login Credentials
 
-Secure login access
+* Teacher Login - Email: teacher@gmail.com Password:1234
+* Student Login - Email: student@gmail.com Password:1234
+* Parent Login - Email: parent@gmail.com Password:1234
 
-🔧 Key Functionalities:
-Responsive and intuitive user interface using Bootstrap
+# Screenshots
 
-Secure login system with session handling in PHP
+![Attendance](Screenshots/attendance.jpeg)
 
-Real-time form validations using JavaScript
+***
 
-MySQL relational database for efficient data storage and retrieval
+![Class room](Screenshots/class-room.jpeg)
 
-Error handling and user feedback
+***
+
+![Dashboard](Screenshots/dashboard.jpeg)
+
+***
+
+![Exam](Screenshots/exam.jpeg)
+
+***
+
+![Exam Result](Screenshots/exam-result.jpeg)
+
+***
+
+![Notice](Screenshots/notice.jpeg)
+
+***
+
+![Parents](Screenshots/parents.jpeg)
+
+***
+
+![Schedule](Screenshots/schedule.jpeg)
+
+***
+
+![Student](Screenshots/student.jpeg)
+
+***
+
+![Admin Dashboard](Screenshots/subject.jpeg)
+
+***
+
+![Teacher](Screenshots/teacher.jpeg)
+
+***
+
+![Users](Screenshots/users.jpeg)
